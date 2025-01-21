@@ -1,7 +1,7 @@
-#Define a function for the present value of annuity (PVA) formula, which takes parameters principal, quoted interest rate, and amortization period
+#Define a function for the present value of an annuity (PVA) equation, which takes parameters principal, quoted interest rate, and amortization period
 def present_value_annuity(principal, rate, amortization):
     
-    #Recreate the present value of annuity equation, and rearrange it to solve for the payment value
+    #Replicate the present value of an annuity equation, and rearrange it to solve for the payment value
     payment = ((principal * rate) / (1 - ((1 + rate) ** (-amortization))))
     
     #Returns the payment
