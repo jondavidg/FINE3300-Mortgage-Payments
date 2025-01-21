@@ -4,7 +4,7 @@ def present_value_annuity(principal, rate, amortization):
     #Replicate the present value of an annuity equation, and rearrange it to solve for the payment value
     payment = ((principal * rate) / (1 - ((1 + rate) ** (-amortization))))
     
-    #Returns the payment
+    #Return the payment
     return payment
 
 #Define a function to execute the mortgage payment calculation, which takes parameters principal, quoted interest rate, and amortization period
