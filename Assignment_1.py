@@ -35,7 +35,7 @@ principal = float(input("Please enter the principal amount: "))
 rate = float(input("Please enter the quoted interest rate as a percent: "))
 amortization = float(input("Please enter the amortization period in years: "))
 
-#Call the function and input the user-provided parameters, then store the resulting tuple of six values from the function in six corresponding variables
+#Call the function and input the user-provided parameters, then store the resulting tuple of six values from the function (unpack them) into six corresponding variables
 monthly_payment, semi_monthly_payment, bi_weekly_payment, weekly_payment, rapid_bi_weekly_payment, rapid_weekly_payment = mortgage_payments(principal, rate, amortization)
 
 #Print the payment outputs according to the desired format, rounding to two decimal places and retaining the trailing zero (where applicable)
