@@ -30,7 +30,7 @@ def mortgage_payments(principal, rate, amortization):
     #Return the payments as a tuple of six values
     return monthly_payment, semi_monthly_payment, bi_weekly_payment, weekly_payment, rapid_bi_weekly_payment, rapid_weekly_payment
 
-#Prompt the user to enter the principal value, quoted interest rate, and amortization period, to be used later as function parameters
+#Prompt the user to enter the principal value, quoted interest rate, and amortization period, and convert these inputs to float datatype to be used later as function parameters
 principal = float(input("Please enter the principal amount: "))
 rate = float(input("Please enter the quoted interest rate as a percent: "))
 amortization = float(input("Please enter the amortization period in years: "))
